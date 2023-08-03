@@ -44,7 +44,7 @@ export class GifsService {
     }
 
     const params = new HttpParams()
-    .set('api_Key',this.apiKey)
+    .set('api_key',this.apiKey)
     .set('limit','25')
     .set('q',query);
     
